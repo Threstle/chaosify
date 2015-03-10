@@ -1,0 +1,24 @@
+{
+  "name": "chaosify",
+  "version": "0.0.0",
+  "description": "small img processing lib for glitching stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Threstle/chaosify.git"
+  },
+  "keywords": [
+    "glitch",
+    "img",
+    "image"
+  ],
+  "author": "Etienne Chaumont <Etienne.Chaumont@gmail.com> (http://lama.land/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Threstle/chaosify/issues"
+  },
+  "homepage": "https://github.com/Threstle/chaosify"
+}
