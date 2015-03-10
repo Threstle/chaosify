@@ -1,6 +1,6 @@
 {
   "name": "chaosify",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "small img processing lib for glitching stuff",
   "main": "index.js",
   "scripts": {
