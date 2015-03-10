@@ -10,9 +10,9 @@ var fs = require('fs');
 module.exports = {
 	  glitchFile: function(path) {
 	    fs.readdir(path, function(err,files){
-	    ch.glitchFile(files[0]);
+	    console.log(files);
 	  })
   }
 
-   
+
 };
