@@ -8,11 +8,12 @@
 var fs = require('fs');
 
 module.exports = {
-	glitchFile: function(path,finalPath) {
+	glitchFile: function(path,finalPath,intensity) {
 	    fs.readFile(path, function(err,data){
-	    
-	    data = module.exports.randomizeChar(data,data.length,data.length/10,5000);
-	    data = module.exports.copyChar(data,data.length,data.length/10,5000,1);
+	    for(var i = 0; i < intensity; i++){
+	    	data = module.exports.randomizeChar(data,data.length,data.length/10,5000);
+	    	data = module.exports.copyChar(data,data.length,data.length/10,5000,1);
+		}
   		fs.writeFile(finalPath, data, function (err) {
 		  if (err) throw err;
 		  console.log('It\'s saved!');
