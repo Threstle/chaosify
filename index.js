@@ -3,9 +3,16 @@
  *
  * @param  {String} html
  * @return {String}
- */
+ */  
+
+var fs = require('fs');
+
 module.exports = {
-  glitchFile: function(file) {
-    console.log('glitch test');
+	  glitchFile: function(path) {
+	    fs.readdir(path, function(err,files){
+	    ch.glitchFile(files[0]);
+	  })
   }
+
+   
 };
